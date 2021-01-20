@@ -21,7 +21,7 @@ bool isValid(string str){
 
 
 int main(){
-    string str = "{}[][[(())]][][{}]";
+    string str = "{}([][[(())]][][{}])";
     cout<<isValid(str)<<endl;
     return 0;
 }
